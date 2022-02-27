@@ -1,0 +1,7 @@
+[user]
+	name = Ethan Lynn
+	email = ethan@sabado.com
+[core]
+	excludesfile = /Users/ethan/.gitignore
+[init]
+	defaultBranch = main
