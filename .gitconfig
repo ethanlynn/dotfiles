@@ -3,5 +3,6 @@
 	email = ethan@sabado.com
 [core]
 	excludesfile = /Users/ethan/.gitignore
+	editor = vim
 [init]
 	defaultBranch = main
