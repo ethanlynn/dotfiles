@@ -8,7 +8,7 @@
         "revision": "7fee3305e0a575b69503d12acf1f944b8f05d513"
       },
       "homebrew/core": {
-        "revision": "a355e3f5937d145c305dad4f44c3465c8f19fc56"
+        "revision": "42ae2bde06465f3630996dc6898d471c6a6d4fea"
       }
     },
     "brew": {
@@ -470,6 +470,45 @@
             }
           }
         }
+      },
+      "cocoapods": {
+        "version": "1.11.2_2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:001989d76642dcce6db769abfc15d637a7f3cc45bda2fc982de474494fc8cc31",
+              "sha256": "001989d76642dcce6db769abfc15d637a7f3cc45bda2fc982de474494fc8cc31"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:d6da560b3cbe34caf25925616ee48c11bf3ceb3b7f7773859862d5c3785876c8",
+              "sha256": "d6da560b3cbe34caf25925616ee48c11bf3ceb3b7f7773859862d5c3785876c8"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:5723991d3a4780ee8d9469742267a6bb0c96862498044f5ba0ffc69a23b81393",
+              "sha256": "5723991d3a4780ee8d9469742267a6bb0c96862498044f5ba0ffc69a23b81393"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:69e1b8d58e10aba88e7ef86c7334dfcea72801c080c84fc0172d14c0ac47255f",
+              "sha256": "69e1b8d58e10aba88e7ef86c7334dfcea72801c080c84fc0172d14c0ac47255f"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:deaa62a6366d2d1aadc10d5159fcf5e59146c1f156db6fa49059a457731c402f",
+              "sha256": "deaa62a6366d2d1aadc10d5159fcf5e59146c1f156db6fa49059a457731c402f"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:ed8e5eeb99f91b86083c5e5201e300da729075e8736dc28fcf771a9836054acc",
+              "sha256": "ed8e5eeb99f91b86083c5e5201e300da729075e8736dc28fcf771a9836054acc"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -540,7 +579,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.16",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a355e3f5937d145c305dad4f44c3465c8f19fc56",
+        "Homebrew/homebrew-core": "42ae2bde06465f3630996dc6898d471c6a6d4fea",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
         "macOS": "12.2.1"
