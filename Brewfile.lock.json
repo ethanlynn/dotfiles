@@ -441,6 +441,12 @@
         "options": {
           "full_name": "zoom"
         }
+      },
+      "postman": {
+        "version": "9.13.0",
+        "options": {
+          "full_name": "postman"
+        }
       }
     }
   },
