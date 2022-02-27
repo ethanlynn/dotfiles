@@ -17,3 +17,4 @@ cask "iterm2"
 cask "postman"
 cask "visual-studio-code"
 cask "zoom"
+mas "iA Writer", id: 775737590

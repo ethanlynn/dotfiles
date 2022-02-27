@@ -448,6 +448,12 @@
           "full_name": "postman"
         }
       }
+    },
+    "mas": {
+      "iA Writer": {
+        "id": "775737590",
+        "version": "5.6.16"
+      }
     }
   },
   "system": {
