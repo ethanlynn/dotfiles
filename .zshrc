@@ -10,3 +10,6 @@ eval "$(pyenv init -)"
 
 # Add Rust tools to $PATH.
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# Use Starship prompt.
+eval "$(starship init zsh)"
