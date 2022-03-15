@@ -7,6 +7,7 @@ brew "cocoapods"
 brew "git"
 brew "golang"
 
+brew "haskell-stack"
 brew "mas"
 brew "neovim"
 brew "openssl"
