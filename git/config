@@ -1,7 +1,9 @@
 [user]
 	name = Ethan Lynn
-	email = ethan@sabado.com
+	email = "ethan@sabado.com"
 [core]
 	editor = nvim
 [init]
 	defaultBranch = main
+[includeIf "gitdir:~/src/github.com/stridetherapy/*"]
+	path = "~/.config/git/config-stride"
