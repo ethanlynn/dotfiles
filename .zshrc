@@ -15,8 +15,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 eval "$(starship init zsh)"
 
 # A few useful aliases.
-alias ls='ls -aF'
+alias la='ls -aF'
 alias ll='ls -alhF'
 alias cdethanlynn='cd ~/src/github.com/ethanlynn'
-alias cdstride='cd ~/src/github.com/stridetherapy' 
-alias dotfiles='code ~/src/github.com/ethanlynn/dotfiles'
+alias codedotfiles='code ~/src/github.com/ethanlynn/dotfiles'
