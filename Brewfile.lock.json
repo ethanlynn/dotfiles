@@ -5,10 +5,10 @@
         "revision": "92cfb59945e1a229d67e7c79d9c6eab93ae58525"
       },
       "homebrew/cask": {
-        "revision": "b62ba4e013d9c02f54525c7f95f51aaa94f6e970"
+        "revision": "32716b86c8b9db6376aa6b8749be0767f206f7b5"
       },
       "homebrew/core": {
-        "revision": "b5a8b0bf71567f445cc311f1a158024af3b56ac3"
+        "revision": "5d0f563955ccb6a22577838df57242f2d62ca060"
       },
       "homebrew/cask-fonts": {
         "revision": "9bcce81a01633617e40601f1fdc0b2ee92ede921"
@@ -779,7 +779,7 @@
         }
       },
       "dropbox": {
-        "version": "147.4.4800",
+        "version": "148.4.4519",
         "options": {
           "full_name": "dropbox"
         }
@@ -821,7 +821,7 @@
         }
       },
       "splice": {
-        "version": "4.1.1,20220413",
+        "version": "4.1.2,20220510",
         "options": {
           "full_name": "splice"
         }
@@ -851,7 +851,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.4.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "b5a8b0bf71567f445cc311f1a158024af3b56ac3",
+        "Homebrew/homebrew-core": "5d0f563955ccb6a22577838df57242f2d62ca060",
         "CLT": "13.3.1.0.1.1648687083",
         "Xcode": "13.3",
         "macOS": "12.3.1"
