@@ -29,6 +29,7 @@ cask "google-chrome"
 cask "iterm2"
 cask "postman"
 cask "splice"
+cask "sublime-text"
 cask "visual-studio-code"
 cask "zoom"
 
