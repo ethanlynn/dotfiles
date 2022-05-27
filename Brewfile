@@ -34,3 +34,4 @@ cask "visual-studio-code"
 cask "zoom"
 
 mas "iA Writer", id: 775737590
+mas "NordVPN: VPN Fast & Secure", id: 905953485
