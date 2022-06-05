@@ -11,8 +11,8 @@ eval "$(pyenv init -)"
 # Add Rust tools to $PATH.
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# Use Starship prompt.
-eval "$(starship init zsh)"
+# Add $GOPATH/bin to $PATH.
+export PATH="$(go env GOPATH)/bin:$PATH"
 
 # A few useful aliases.
 alias la='ls -aF'
