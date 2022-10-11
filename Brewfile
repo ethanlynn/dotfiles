@@ -4,6 +4,7 @@ tap "homebrew/core"
 
 brew "git"
 brew "neovim"
+brew "node"
 brew "rust-analyzer"
 brew "watchman"
 
