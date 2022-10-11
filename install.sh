@@ -19,8 +19,6 @@ update_symlinks() {
   ln -snf "${wd}/.zshrc" "${HOME}/.zshrc"
   ln -snf "${wd}/git" "${xdg_config_home}/git"
   ln -snf "${wd}/nvim" "${xdg_config_home}/nvim"
-  ln -snf "${wd}/.vscode/settings.json" \
-    "${HOME}/Library/Application Support/Code/User/settings.json"
   echo 'done'
 }
 

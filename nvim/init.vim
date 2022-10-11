@@ -1,6 +1,4 @@
 call plug#begin()
-Plug 'arcticicestudio/nord-vim'
-Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-surround'
 call plug#end()
 
@@ -17,8 +15,3 @@ set ruler
 set shiftwidth=2
 set tabstop=2
 set termguicolors
-
-xmap ga <Plug>(EasyAlign)
-nmap ga <Plug>(EasyAlign)
-
-colorscheme nord
