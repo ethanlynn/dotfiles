@@ -8,7 +8,7 @@
         "revision": "1c6ad2dbb9075d570b8bb980f31783c10041e7b7"
       },
       "homebrew/core": {
-        "revision": "a04e6e19272e16650457557dc7f43932e0ee4022"
+        "revision": "8953dee9c8266b88d45b1697cc931bdf0112342d"
       },
       "homebrew/cask-fonts": {
         "revision": "9bcce81a01633617e40601f1fdc0b2ee92ede921"
@@ -933,6 +933,12 @@
         "options": {
           "full_name": "ableton-live-suite"
         }
+      },
+      "native-access": {
+        "version": "2.6.0",
+        "options": {
+          "full_name": "native-access"
+        }
       }
     },
     "mas": {
@@ -948,7 +954,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.6.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a04e6e19272e16650457557dc7f43932e0ee4022",
+        "Homebrew/homebrew-core": "8953dee9c8266b88d45b1697cc931bdf0112342d",
         "CLT": "14.0.0.0.1.1661618636",
         "Xcode": "14.0.1",
         "macOS": "12.6"
