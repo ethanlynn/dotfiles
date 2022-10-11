@@ -939,6 +939,12 @@
         "options": {
           "full_name": "native-access"
         }
+      },
+      "obs": {
+        "version": "28.0.3",
+        "options": {
+          "full_name": "obs"
+        }
       }
     },
     "mas": {
