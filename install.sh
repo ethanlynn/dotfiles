@@ -18,20 +18,8 @@ update_symlinks() {
   local wd="$(pwd)"
   ln -snf "${wd}/.zshrc" "${HOME}/.zshrc"
   ln -snf "${wd}/git" "${xdg_config_home}/git"
-  ln -snf "${wd}/nvim" "${xdg_config_home}/nvim"
   echo 'done'
-}
-
-install_vim_plug() {
-  local vim_plug_path="${xdg_data_home}/nvim/site/autoload/plug.vim"
-  local vim_plug_url='https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-  if [[ ! -e "${vim_plug_path}" ]]; then
-    echo -n 'installing vim-plug for neovim... ' 
-    curl -fLo "${vim_plug_path}" --create-dirs "${vim_plug_url}" &> /dev/null
-    echo 'done'
-  fi
 }
 
 ensure_xdg_config_home_exists
 update_symlinks
-install_vim_plug
