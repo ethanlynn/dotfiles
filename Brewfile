@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/cask-fonts"
 
 brew "git"
 brew "neovim"
@@ -20,3 +21,4 @@ cask "iterm2"
 cask "postman"
 cask "visual-studio-code"
 cask "zoom"
+cask "font-meslo-lg-nerd-font"
