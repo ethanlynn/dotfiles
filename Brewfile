@@ -4,6 +4,7 @@ tap "homebrew/core"
 tap "homebrew/cask-fonts"
 
 brew "git"
+brew "go"
 brew "neovim"
 brew "node"
 brew "pipx"
