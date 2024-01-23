@@ -1,6 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/cask-fonts"
 
 brew "git"
@@ -23,3 +21,4 @@ cask "postman"
 cask "visual-studio-code"
 cask "zoom"
 cask "font-meslo-lg-nerd-font"
+cask "kitty"
